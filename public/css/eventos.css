@@ -1,0 +1,59 @@
+body {
+    font-family: 'Bauhaus 93';
+    padding: 10px;
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.eventos-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.evento-container {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 10px #0ff, 0 0 15px #0ff, 0 0 20px #0ff, 0 0 25px #0ff, 0 0 30px #0ff;
+    border: 5px solid rgb(134, 134, 234);
+    text-align: center;
+}
+
+.evento-name {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.evento-location,
+.evento-date,
+.evento-time {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
